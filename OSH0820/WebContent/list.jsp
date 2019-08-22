@@ -19,7 +19,7 @@ int startRow=(currPage-1)*pageSize+1;
 int endRow=currPage*pageSize;
 int count =0;
 int number=0;
-List<BoardDataBean> articleList = null;
+List<BoardDataBean> articleList =null;
 BoardDBBean dbPro = BoardDBBean.getInstance();
 count = dbPro.getArticleCount();
 if(count>0){
